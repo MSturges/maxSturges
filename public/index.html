@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="portfolioSite">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/style/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/bower_components/devicons/css/devicons.min.css">
+
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+  <!-- module -->
+  <script src="/js/module/module.js"></script>
+
+  <!-- controllers -->
+  <script src="/js/controllers/aboutController.js"></script>
+  <script src="/js/controllers/writingController.js"></script>
+  <script src="/js/controllers/developmentController.js"></script>
+  <script src="/js/controllers/contactController.js"></script>
+
+  <!-- directives -->
+  <script src="/js/directives/aboutDirective.js"></script>
+  <script src="/js/directives/writingDirective.js"></script>
+  <script src="/js/directives/developmentDirective.js"></script>
+  <script src="/js/directives/contactDirective.js"></script>
+
+    <link rel="shortcut icon" href="/img/maxsturgeswhite2.jpg" type="img/x-icon"/>
+
+  <!-- google-analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80743920-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+  <!-- routes -->
+  <script src="/js/routes/routes.js"></script>
+
+
+  <base href="/"/>
+
+  <title>Max Sturges</title>
+
+</head>
+<body>
+
+  <div ui-view></div>
+
+</body>
+</html>

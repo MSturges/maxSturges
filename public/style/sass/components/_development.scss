@@ -1,0 +1,134 @@
+.developmentContent {
+  color: black;
+  padding-top: 120px;
+  margin: 0 auto;
+
+  .developmentColumn {
+    background: rgba(29,31,33, .7) !important;
+    width: 100%;
+    margin: 25px auto;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+}
+
+.crushRoutes {
+  height: auto;
+  width: auto;
+  max-width: 800px;
+  max-height: 800px;
+  width: 70%;
+}
+
+#dropZioContainer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#yodelContainer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+#maxSturgesContainer {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.gitHub {
+  width: 90%;
+  margin: 25px auto;
+  text-align: left;
+  font-size: 2.0em;
+  a {
+    color: white;
+  }
+}
+
+.introduction {
+  width: 70%;
+  margin: 25px auto;
+  color: white;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+  p {
+    font-size: 1.5em;
+    text-align: left;
+  }
+}
+
+.tech {
+  width: 70% ;
+  margin: 25px auto;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid white;
+  font-size: 2.5em;
+  padding: 5px;
+
+  span {
+    border-radius: 10px;
+    border: 1px solid white;
+
+
+  }
+
+}
+
+.maxSturges {
+  width: 70%;
+  // margin: 25px auto;
+
+  color: white;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid white;
+  }
+}
+
+.devPort {
+  width: 70%;
+  margin: 25px auto;
+  color: white;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.portfolioSite{
+  text-align: right;
+  height: 600px;
+  width: 370px;
+  padding-right: 20px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-size: 2.0em;
+}
+
+
+.dropzioImg {
+  height: 600px;
+  width: 370px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px
+}
+
+.imageHolder {
+  width: 70%;
+  margin: 0 auto;
+
+}

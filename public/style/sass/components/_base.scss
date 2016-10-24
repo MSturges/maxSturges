@@ -1,0 +1,19 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img, embed, object, video {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background: url("../../../img/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  * {
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+}

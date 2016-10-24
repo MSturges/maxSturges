@@ -1,0 +1,66 @@
+.previewContainer {
+  margin-top: 180px;
+  .row {
+    .preview {
+      background: rgba(29,31,33, .7) !important;
+      height: 280px;
+      border: 3px solid white;
+      border-radius: 10px;
+      margin: 0 auto;
+      padding: 20px;
+      color: white;
+      h1{
+        text-decoration: underline;
+      }
+      p {
+        font-size: 18px;
+      }
+      button {
+        width: 100%;
+        margin: 0 auto;
+        background: rgba(46, 90, 110, 1.0);
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+.modalWidth {
+  width: 90% !important;
+  p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width : 993px) {
+  .previewContainer {
+    .row {
+      .preview {
+        background: rgba(29,31,33, .7) !important;
+        height: 350px;
+        border: 3px solid white;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        color: white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .previewContainer {
+    .row {
+      .preview {
+        background: rgba(29,31,33, .7) !important;
+        height: 280px;
+        border: 3px solid white;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        color: white;
+        margin-bottom: 35px;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+img.navbar-brand {
+  height: 100px;
+  width: 170px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 1.0) !important;
+}
+
+.navbar-inverse .navbar-toggle {
+  background: rgba(46, 90, 110, 1.0) !important;
+  margin-top: 30px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  ul {
+    padding-top: 25px;
+    float: right;
+  }
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+  background: rgba(46, 90, 110, 1.0) !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: white !important;
+  font-size: 1.3em;
+}
+
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+}
+
+@media only screen and (max-width : 768px) {
+  .navbar-inverse .navbar-collapse ul {
+    float: none;
+  }
+}

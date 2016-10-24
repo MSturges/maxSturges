@@ -1,0 +1,40 @@
+.contactContent {
+  color: white;
+  padding-top: 120px;
+
+  .contactColumn {
+    background: rgba(29,31,33, .7) !important;
+    width: 100%;
+    margin: 25px auto;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 10px;
+
+
+  }
+}
+
+form {
+  text-align: center;
+  width: 90% !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  margin: 0 auto;
+  color: white;
+  .contactLabels {
+    display: block;
+    font-size: 1.2em;
+  }
+  textarea {
+    resize: none;
+  }
+  .text-danger {
+    font-size: 1.5em;
+    color: red;
+  }
+  button {
+    background: rgb(56,90,109);
+    border: none;
+    width: 80px;
+  }
+}
